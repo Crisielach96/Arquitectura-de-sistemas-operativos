@@ -1,0 +1,206 @@
+    1  apt-get update && apt-get upgrade
+    2  apt-cache search kernel-header
+    3  apt-cache search linux-headers
+    4  apt-get install linux-header
+    5  apt-get install linux-headers
+    6  apt-get install linux-headers-$(uname -r)
+    7  apt-cache search build
+    8  apt-cache search build | more
+    9  apt-get install build-essential
+   10  apt-get install lvm mdadm tree less git mc
+   11  apt-get install lvm2 mdadm tree less git mc
+   12  cd /media/alumno/VBOXADDITIONS_5.1.8_111374/
+   13  ls -l
+   14  ./VBoxLinuxAdditions.run 
+   15  apt-get clean
+   16  reboot
+   17  cd ../../
+   18  pwd
+   19  cd /
+   20  pwd
+   21  ls
+   22  ls -l
+   23  ls -ls
+   24  ls -lr
+   25  ls -l-r
+   26  ls -l -r
+   27  ls -lt
+   28  ls -lth
+   29  ls -ltha
+   30  ls
+   31  tree
+   32  fhs
+   33  fs -fhs
+   34  cd etc
+   35  ls -l
+   36  cd home/alumno
+   37  cd /home/alumno
+   38  echo "Hola "->saludar.txt
+   39  echo "Hola ">saludar.txt
+   40  ls -l -a- t -h
+   41  ls -lath
+   42  cd /boot
+   43  ls -l
+   44  ls
+   45  cd /var/lock
+   46  ls
+   47  cd /var/room
+   48  cd /var/rum
+   49  cd /var/run
+   50  ls
+   51  cd ..
+   52  ls
+   53  ls -l
+   54  cd tmp
+   55  ls
+   56  cd ..
+   57  pwd
+   58  cd /usr/bin
+   59  ls
+   60  ls -lath
+   61  du /bim
+   62  du /bin
+   63  du /bin -mb
+   64  du /bin -g
+   65  du -mb /bin 
+   66  du /bin -h 
+   67  cd /opt
+   68  ls
+   69  du /opt -h 
+   70  cd /etc/opt
+   71  ls
+   72  du /etc/opt -h 
+   73  cd /opt
+   74  cd /home
+   75  ls
+   76  cd /bin
+   77  ls
+   78  cd /sbin
+   79  ls
+   80  cd /var
+   81  ls
+   82  cd cache
+   83  ls
+   84  cd ..
+   85  cd mail
+   86  ls
+   87  cd ..
+   88  cd /root
+   89  ls
+   90  psw
+   91  pwd
+   92  cd ..
+   93  pwd
+   94  ls
+   95  cd lib
+   96  ls
+   97  cd /
+   98  pwd
+   99  tre
+  100  tree
+  101  cd /home
+  102  cp
+  103  cp index.png
+  104  cp /home/alumno  index.png
+  105  cp /home/alumno index.png
+  106  cp /home/alumno/ index.png
+  107  ls
+  108  cp index.png -t
+  109  man cp
+  110  cp index.png -t /alumno
+  111  cp index.png -t  /home/alumno
+  112  cp index.png  /home/alumno
+  113  cp index.png
+  114  cp index.png /alumno/
+  115  cp index.png 
+  116  cp index.png alumno
+  117  cp index.png 
+  118  cp index.png alumno
+  119  cp index.png /alumno
+  120  cp index.png /home/alumno
+  121  cd /
+  122  ls
+  123  cd /usr/
+  124  ls
+  125  /home
+  126  cd /home/
+  127  ls
+  128  cd /home/alumno/
+  129  ls
+  130  cd /Escritorios
+  131  cd /Escritorio
+  132  ls
+  133  cp /home/alumno/index.png 
+  134  cp /home/alumno/index.png /home
+  135  /home
+  136  ls
+  137  cd /home/
+  138  cd /home/alumno/
+  139  cd /home/alumno/Escritorio/
+  140  ls
+  141  psw
+  142  pwd
+  143  cd ..
+  144  cd /root
+  145  cd /alumno
+  146  cd /home
+  147  cat /etc/passwd
+  148  man cat
+  149  more passwd
+  150  manmoer
+  151  man more
+  152  more /etc/passwd
+  153  less /etc/passwd
+  154  man rm
+  155  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+  156  man man
+  157  man man man
+  158  clear
+  159  mkdir -r Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/usu01},{Recursos-Humanos/{Archivos,Usuarios/usu02}}
+  160  mkdir -r /Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/usu01},{Recursos-Humanos/{Archivos,Usuarios/usu02}}
+  161  mkdir -p /Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/usu01},{Recursos-Humanos/{Archivos,Usuarios/usu02}}
+  162  tree
+  163  mkdir -p Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/usu01},{Recursos-Humanos/{Archivos,Usuarios/usu02}}
+  164  tree
+  165  mkdir -p ./Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/usu01}},{Recursos-Humanos/{Archivos,Usuarios/usu02}}
+  166  tree
+  167  rm ./sistemas
+  168  rm ./Sistemas
+  169  rm -r ./Sistemas
+  170  tree
+  171  mkdir -p ./Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/usu01}},{Recursos-Humanos/{Archivos,Usuarios/usu02}}
+  172  tree
+  173  rm -r ./Sistemas
+  174  tree
+  175  mkdir -p ./Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios}/usu01},{Recursos-Humanos/{Archivos,Usuarios/usu02}}
+  176  tree
+  177  rm -r ./Sistemas
+  178  mkdir -p ./Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/usu01},Recursos-Humanos/{Archivos,Usuarios/usu02}}
+  179  tree
+  180  rm -r ./Sistemas
+  181  mkdir -p ./Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/usu01},Recursos-Humanos/{Archivos,Usuarios/usu02}}
+  182  tree
+  183  echo "" > Sistemas/Contabilidad/Recursos/recur_conta.txt
+  184  tree
+  185  tty
+  186  tree
+  187  man which
+  188  echo "Recurso contable general" > Sistemas/Contabilidad/Recursos/recur_conta.txt
+  189  cat Sistemas/Contabilidad/Recursos/recur_conta.txt
+  190  Sistemas/Contabilidad/Recursos/recur_conta.txt > Sistemas/Recursos-Humanos/Archivos/recur_conta.txt
+  191  tree
+  192  rm -r ./Sistemas/Recursos-Humanos/Archivos/recur_conta.txt 
+  193  tree
+  194  cat Sistemas/Contabilidad/Recursos/recur_conta.txt>Sistemas/Recursos-Humanos/Archivos/recur_conta.txt
+  195  tree
+  196  man mv
+  197  mv Sistemas/Recursos-Humanos/Archivos/recur_conta.txt recur_rh_usu02.txt
+  198  tree
+  199  rm -p recur_rh_usu02.txt 
+  200  rm -r recur_rh_usu02.txt 
+  201  tree
+  202  cat Sistemas/Contabilidad/Recursos/recur_conta.txt>Sistemas/Recursos-Humanos/Archivos/recur_conta.txt
+  203  tree
+  204  mv Sistemas/Recursos-Humanos/Archivos/recur_conta.txt Sistemas/Recursos-Humanos/Archivos/recu_rh_usu02.txt
+  205  tree
+  206  history>history.txt
