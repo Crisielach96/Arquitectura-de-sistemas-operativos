@@ -1,0 +1,25 @@
+    1  mkdir -p ./Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/usu01},Recursos-Humanos/{Archivos,Usuarios/usu02}}
+    2  tree
+    3  apt install tree
+    4  tree
+    5  echo "" Sistemas/Contabilidad/Recursos/
+    6  tree
+    7  echo "" Sistemas/Contabilidad/Recursos/recur_conta.txt
+    8  tree
+    9  man echo
+   10  echo "" >  Sistemas/Contabilidad/Recursos/recur_conta.txt
+   11  tree
+   12  echo "Recurso Contable General " >  Sistemas/Contabilidad/Recursos/recur_conta.txt
+   13  cat Sistemas/Contabilidad/Recursos/recur_conta.txt > Sistemas/Recursos-Humanos/Archivos/recur_conta.txt
+   14  tree
+   15  mv Sistemas/Recursos-Humanos/Archivos/recur_conta.txt Sistemas/Recursos-Humanos/Archivos/recur_rh.txt
+   16  tree
+   17  man cp
+   18  cp Sistemas/Recursos-Humanos/Archivos/recur_rh.txt Sistemas/Recursos-Humanos/Usuarios/usu02/recur_rh_usu02.txt
+   19  tree
+   20  rm -r Sistemas/Contabilidad/Recursos/recur_conta.txt 
+   21  tree
+   22  cat Sistemas/Recursos-Humanos/Usuarios/usu02/recur_rh_usu02.txt 
+   23  rm -r Sistemas/Contabilidad/Recursos
+   24  tree
+   25  history > historial.txt
